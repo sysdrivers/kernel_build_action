@@ -19,11 +19,10 @@ jobs:
           kernel-branch: master
           config: h7000_defconfig
           arch: arm64
-          aosp-gcc: false
+          aosp-gcc: true
           aosp-clang: true
           ksu: false
           ksu-version: main
-          android-version: 9
           clang-version: r399163b
           python-27: true
           disable-lto: true
