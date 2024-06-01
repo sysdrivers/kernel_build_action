@@ -10,7 +10,7 @@ inputs:
     description: 'Kernel Source Url'
     required: true
   depth:
-    required: false
+    required: false 
     default: 1
   vendor-url:
     description: 'Kernel Vendor Source Url'
