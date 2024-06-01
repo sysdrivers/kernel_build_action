@@ -19,8 +19,10 @@ jobs:
           kernel-branch: master
           config: h7000_defconfig
           arch: arm64
-          aosp-gcc: true
+          aosp-gcc: false
           ksu: false
+          other-clang-url: https://github.com/kdrag0n/proton-clang
+          other-clang-branch: 10.0
           ksu-version: main
           python-27: true
           disable-lto: true
