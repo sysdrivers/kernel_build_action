@@ -20,10 +20,8 @@ jobs:
           config: h7000_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: false
           ksu: false
           ksu-version: main
-          clang-version: r399163b
           python-27: true
           disable-lto: true
           anykernel3: true
