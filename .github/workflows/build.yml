@@ -16,16 +16,14 @@ jobs:
       uses: sysdrivers/kernel_build_action@main
       with:
           kernel-url: https://github.com/sysdrivers/kernel_h7000_bbk
-          kernel-dir: kernel
           kernel-branch: master
           config: h7000_defconfig
           arch: arm64
-          aosp-gcc: true
-          aosp-clang: true
+          aosp-gcc: false
+          aosp-clang: false
           ksu: false
           ksu-version: main
-          android-version: 12
-          aosp-clang-version: r383902
+          android-version: 9
           python-27: true
           disable-lto: true
           anykernel3: true
