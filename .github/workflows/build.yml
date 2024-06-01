@@ -22,7 +22,7 @@ jobs:
           aosp-gcc: false
           ksu: false
           other-clang-url: https://github.com/kdrag0n/proton-clang
-          other-clang-branch: 10.0
+          other-clang-branch: master
           ksu-version: main
           python-27: true
           disable-lto: true
