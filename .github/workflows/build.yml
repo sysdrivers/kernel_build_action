@@ -20,7 +20,7 @@ jobs:
           config: h7000_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          aosp-clang: false
           ksu: false
           ksu-version: main
           clang-version: r399163b
